@@ -14,7 +14,7 @@ from setuptools import setup, find_packages
 # requirements = [str(req.req) for req in install_requirements]
 requirements = [
     "oauthlib==2.0.1",
-    "requests==2.20.0",
+    "requests",
     "requests-oauthlib==0.7.0",
     "six==1.10.0"
 ]
